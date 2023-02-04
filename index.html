@@ -1,14 +1,119 @@
 <!DOCTYPE html>
-<html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>hw-03</title>
+  </head>
 
-<head>
-    <meta charset=utf-8/>
-</head>
+  <body>
+    <h1 class="center">hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <div class="container">
+      <div class="column vertical-align">
+        <img src="img/vis1.png" alt="vis1" class="graph-formatting" />
+        <img src="img/vis2.png" alt="vis2" class="graph-formatting" />
+      </div>
+      <div class="column">
+        <div class="graph-formatting">
+          <h3>Marks</h3>
+          <ul>
+            <li>Area - state has width and height</li>
+            <li>Line - bar at top showing total electoral votes</li>
+          </ul>
+          <h3>Channels</h3>
+          <ul>
+            <li>Color hue</li>
+            <ul>
+              <li>Represents attribute of type Categorical</li>
+              <li>
+                Good choice because voting choice is categorical data so it
+                makes sense to use color hue. Colors align with real world
+                heuristics of data (blue = democrat and red = republican).
+              </li>
+            </ul>
+            <li>Position horizontal on common scale</li>
+            <ul>
+              <li>Represents attribute of type Ordered</li>
+              <li>
+                Good choice because total voter count for each candidate is
+                magnitude based.
+              </li>
+            </ul>
+          </ul>
+          <h3>Colormap(s)</h3>
+          <ul>
+            <li>Categorical</li>
+            <ul>
+              <li>Represents attribute of type Categorical</li>
+              <li>
+                Good choice because voting choice is categorical data so it
+                makes sense to use color hue. Colors align with real world
+                heuristics of data (blue = democrat and red = republican).
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="graph-formatting">
+          <h3>Marks</h3>
+          <ul>
+            <li>Point</li>
+            <li>Line - bar at top showing divergence of average</li>
+          </ul>
 
+          <h3>Channels</h3>
+          <ul>
+            <li>Color hue</li>
+            <ul>
+              <li>Represents attribute of type Categorical</li>
+              <li>Good choice because clear distinction between colors</li>
+            </ul>
+            <li>Color saturation</li>
+            <ul>
+              <li>Represents attribute of type Quantitative Ordered</li>
+              <li>
+                Bad choice because different saturations aren't distinct enough
+                from each other and is harder to read when already using two
+                different hues
+              </li>
+            </ul>
+            <li>Position both</li>
+            <ul>
+              <li>Represents attribute of type Quantitative Ordered</li>
+              <li>
+                Good choice because clearly shows distinction of different data
+                points
+              </li>
+            </ul>
+            <li>Position horizontal on common scale</li>
+            <ul>
+              <li>Represents attribute of type Quantitative Ordered</li>
+              <li>
+                Good choice because shows clearly how different colors align to
+                an above or below average score
+              </li>
+            </ul>
+          </ul>
+          <h3>Colormap(s)</h3>
+          <ul>
+            <li>Divergent</li>
+            <ul>
+              <li>Represents attribute of type Quantitative Ordered</li>
+              <li>
+                Good choice, shows different levels of LWTS and allows for clear
+                distinguishing between above and below average scores.
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button type="button">Click me!</button>
 
-<body>
+    <h3 class="center">Acknowledgements</h3>
+    <ul>
+      <li></li>
+    </ul>
+  </body>
 
-
-</body>
-
+  <script src="main.js"></script>
 </html>

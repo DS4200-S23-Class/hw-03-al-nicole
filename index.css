@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  width: 50%;
+}
+
+.graph-formatting {
+  height: 800px;
+  object-fit: contain;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: column;
+}
