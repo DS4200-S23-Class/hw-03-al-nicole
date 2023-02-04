@@ -2,7 +2,7 @@
 
 hw-03 - Interactive Webpage
 
-(GitHub Pages)[https://ds4200-s23-class.github.io/hw-03-al-nicole/]
+[GitHub Pages](https://ds4200-s23-class.github.io/hw-03-al-nicole/)
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting.
 
