@@ -8,10 +8,12 @@
 
   <body>
     <h1 class="center">hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <button type="button" onclick="clickButton()">Click me!</button>
     <div class="container">
       <div class="column vertical-align">
         <img src="img/vis1.png" alt="vis1" class="graph-formatting" />
         <img src="img/vis2.png" alt="vis2" class="graph-formatting" />
+        <img src="img/hockey.jpeg" alt="hockey" class="graph-formatting" />
       </div>
       <div class="column">
         <div class="graph-formatting">
@@ -105,13 +107,54 @@
             </ul>
           </ul>
         </div>
+        <div class="graph-formatting">
+          <h3>Marks</h3>
+          <ul>
+            <li>Area</li>
+          </ul>
+          <h3>Channels</h3>
+          <ul>
+            <li>Color hue</li>
+            <ul>
+              <li>Represents attribute of type Categorical</li>
+              <li>
+                Good and bad choice for color. Good because it matches
+                thematically and is a commonly used color combination to
+                represents wins vs losses, but bad because of red and green
+                color blindness.
+              </li>
+            </ul>
+            <li>Tilt</li>
+            <ul>
+              <li>Represents attribute of type Ordered</li>
+              <li>
+                Good because it allows for clear understanding of how many wins
+                vs losses vs ties there were in the season.
+              </li>
+            </ul>
+          </ul>
+          <h3>Color map(s)</h3>
+          <ul>
+            <li>Represents attribute of type Categorical</li>
+            <li>
+              Good and bad choice for color. Good because it matches
+              thematically and is a commonly used color combination to
+              represents wins vs losses, but bad because of red and green color
+              blindness.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <button type="button">Click me!</button>
 
     <h3 class="center">Acknowledgements</h3>
     <ul>
-      <li></li>
+      <li>https://www.w3schools.com/howto/howto_js_remove_class.asp</li>
+      <li><a href="hockey_stats_small.csv">Hockey Stats</a></li>
+      <li>
+        https://stackoverflow.com/questions/56418763/creating-the-perfect-rainbow-gradient-in-css
+      </li>
+      <li>https://codepen.io/Hyperplexed/full/zYWvXMM</li>
     </ul>
   </body>
 
